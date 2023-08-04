@@ -1,7 +1,7 @@
 import page from '../Pages/page'
 
-describe('template spec', () => {
-  it('passes', () => {
+describe('Automation exchange', () => {
+  it('Exchange ETH to BTC', () => {
 
     cy.visit('https://changenow.io/');
     page.clickStartExchange()
